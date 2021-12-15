@@ -21,6 +21,6 @@ ___
 
 >Связь со мной - https://vk.com/zfriks
 >
->Ютуб - https://vk.com/zfriks
+>Ютуб - https://www.youtube.com/channel/UCrxsNchXaFe-Bx5_FF3xjDw
 >
->ТикТок - https://vk.com/zfriks
+>ТикТок - https://www.tiktok.com/@zfriks?lang=ru-RU
