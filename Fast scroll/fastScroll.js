@@ -32,21 +32,21 @@ const fastScroll = {
           return
      },
      scrollToBottom(lastItem) {
-          const listHandle = document.querySelector("#list");
+          const dialogList = document.getElementById('list');
 
           App.$children[0].$children[1].$children[0].$children[0].selected = lastItem + 1;
 
           setTimeout(() => {
-               listHandle.scrollTop = 99999999999999;
+               dialogList.scrollTop = 9e5;
           }, 100);
 
           return
      },
      scrollToTop() {
-          const listHandle = document.querySelector("#list");
+          const dialogList = document.getElementById('list');
 
           App.$children[0].$children[1].$children[0].$children[0].selected = -1;
-          listHandle.scrollTop = 0;
+          dialogList.scrollTop = 0;
 
           return
      }
