@@ -23,8 +23,6 @@ const oldInfoCard = {
      hookAndReplaceNewInfoCard() {
           App.$children[0].$refs['Appartament'] = [{
                close() {
-                    console.log('Закрыл новый интерфейс');
-
                     clearInterval(oldInfoCard.gameTextInterval);
                     interface('GameText').add(`[3,\"~w~Для взаимодействия нажмите ~g~alt\",500,0,0,0]`)
                     window.closeInterface('InfoCard');
@@ -33,8 +31,6 @@ const oldInfoCard = {
 
           App.$children[0].$refs['Business'] = [{
                close() {
-                    console.log('Закрыл новый интерфейс');
-
                     clearInterval(oldInfoCard.gameTextInterval);
                     interface('GameText').add(`[3,\"~w~Для взаимодействия нажмите ~g~alt\",500,0,0,0]`)
                     window.closeInterface('InfoCard');
@@ -45,8 +41,6 @@ const oldInfoCard = {
                apply(target, thisArgs, args) {
 
                     if (args[0] === 'Business' || args[0] === 'Appartament') {
-                         console.log('Показываю новый интерфейс', args);
-
                          interface('GameText').add(`[3,\"~w~Для взаимодействия нажмите ~g~alt\",3000,0,0,0]`);
                          oldInfoCard.gameTextInterval = setInterval(() => interface('GameText').add(`[3,\"~w~Для взаимодействия нажмите ~g~alt\",3000,0,0,0]`), 2000)
                          oldInfoCard.openOldInfoCard(args[1], args[0]);
