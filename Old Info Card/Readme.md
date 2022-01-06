@@ -10,6 +10,10 @@
 ## Слетевшие квартиры
 ![image](https://user-images.githubusercontent.com/68365842/147853389-243c5f25-2f0d-49e8-b102-82c03c089e0c.png)
 
+## Дома
+![image](https://user-images.githubusercontent.com/68365842/147853505-bba505ab-4ebf-4467-aeed-c962ce378df0.png)
+
+
 # Установка
 Если __JsLoader__ не установлен, обязательно это сделайте.
 
